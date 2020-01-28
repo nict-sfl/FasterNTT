@@ -6,10 +6,6 @@ which is almost twice faster than NFLlib. FasterNTT employs
 - Shoup's trick (for NTT), Montgomery multiplication (for point-wise mult.),
 - and Scott's slothful NTT instead of Longa-Naehrig's NTT, which is employed in most of all (open-sourced) implementations.  
 
-## Note
-This version is used for writing a paper, which was appeared in a Japanese domestic conference [SCIS2020](https://www.iwsec.org/scis/2020/). 
-This branch is just for reproducibility, and is **NOT RECOMMENDED** to use for any other purpose.
-
 ## Prerequisites
 
 - [OpenSSL](https://www.openssl.org/)
